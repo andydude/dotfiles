@@ -1,0 +1,14 @@
+#!/bin/bash
+# ~/.profile: Executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists. See /usr/share/doc/bash/examples/startup-files for examples.
+
+BASH_DIR="$HOME/.config/bash"
+. $BASH_DIR/profile.d/options.sh
+. $BASH_DIR/profile.d/completion.sh
+. $BASH_DIR/profile.d/path_helper.sh
+. $BASH_DIR/profile.d/paths.sh
+. $BASH_DIR/profile.d/prompt.sh
+. $BASH_DIR/profile.d/export_env.sh
+. $BASH_DIR/profile.d/aliases.sh
+unset BASH_DIR

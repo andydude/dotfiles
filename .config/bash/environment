@@ -1,0 +1,36 @@
+CHARSET="UTF-8"
+
+# Used to determine the locale category for any category not specifically
+# selected with a variable starting with LC_.
+LANG="en_US"
+
+# This variable overrides the value of LANG and any other LC_ variable
+# specifying a locale category.
+LC_ALL="en_US.UTF-8"
+
+# Name of the history file used to remember search commands and shell commands
+# between invocations of less.  If set to "-" or "/dev/null", a history file is not used.
+LESSHISTFILE=~/.config/less/history
+
+# When the sh utility is being used interactively, it shall maintain a
+# list of commands previously entered from the terminal in the file named
+# by the HISTFILE environment variable. The type, size, and internal format
+# of this file are unspecified. Multiple sh processes can share access
+# to the file for a user, if file access permissions allow this;
+# see the description of the HISTFILE environment variable.
+# The default value is ~/.sh_history.
+#
+# The name of the file to which the command history is saved.
+# The default value is ~/.bash_history.
+HISTFILE=~/.config/bash/history
+
+# Larger bash history (allow 32³ entries; default is 500)
+HISTSIZE=32768
+HISTFILESIZE=32768
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+# HISTCONTROL=erasedups
+# HISTCONTROL=ignoredups
+# HISTCONTROL=ignorespace
+HISTCONTROL=ignoreboth

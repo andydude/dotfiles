@@ -1,0 +1,9 @@
+#!/bin/bash
+# ~/.bashrc: Executed by bash(1) for non-login shells.
+# See /usr/share/doc/bash/examples/startup-files for examples.
+
+BASH_DIR="$HOME/.config/bash"
+. $BASH_DIR/profile.d/path_helper.sh
+. $BASH_DIR/profile.d/paths.sh
+. $BASH_DIR/profile.d/export_env.sh
+unset BASH_DIR

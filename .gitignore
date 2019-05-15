@@ -50,3 +50,21 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# specific
+/Applications
+/Boxes
+/Builds
+/Charts
+/Desktop
+/Disks
+/Documents
+/Machines
+/Movies
+/Misc
+/Pictures
+/Private
+/Public
+/Sites
+/Videos
+/Workspaces
